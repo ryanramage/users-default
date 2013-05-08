@@ -1,10 +1,26 @@
 {
-    "name": "users-default",
+    "name": "profiles",
     "version": "0.0.1",
-    "description": "Default themed user profiles app",
+    "description": "User profile management for your dashboard",
+    "long_description" : "The default dashboard does not have a lot going for user management. This app helps with profiles, and self serve signup.",
+    "categories": ["users"],
+    "icons": {
+        "16": "icons/wiki_icon_16.png",
+        "48": "icons/wiki_icon_48.png",
+        "96": "icons/wiki_icon_96.png",
+        "128": "icons/wiki_icon_128.png"
+    },
+    "promo_images": {
+        "small": "icons/promo_small.png"
+    },
+    "screenshots": [
+        "icons/screenshot1.png"
+    ],
+    "url": "https://github.com/ryanramage/users-default",
     "attachments": [
         "index.html",
-        "css"
+        "css",
+        "icons"
     ],
     "dependencies": {
         "users-core": null,
